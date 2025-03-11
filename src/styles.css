@@ -2,3 +2,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    --main-color : #013264;
+    --main-color-opacity-90 : #042a4fe1;
+    --soft-color : #044C8C;
+    --warning-color : #FAA926;
+}
+.main-color-bg {
+    background-color: var(--main-color);
+}
+.main-color-text {
+    color: var(--main-color);
+}
+.warning-color-bg {
+    background-color: var(--warning-color);
+}
+.warning-color-text {
+    color: var(--warning-color);
+}
+.main-color-bg-opacity-90 {
+    background-color: var(--main-color-opacity-90);
+}
