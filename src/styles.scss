@@ -1,3 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color : #013264;
+    --main-color-opacity-90 : #042a4fe1;
+    --main-light-color : #044C8C;
+    --warning-color : #332701;
+    --warning-light-color : #F2C349;
+    --danger-color : #781D25;
+    --danger-light-color : #E57E84;
+    --good-color : #051B11;
+    --good-light-color : #75B798;
+}
+.main-color-bg {
+    background-color: var(--main-color);
+}
+.main-color-text {
+    color: var(--main-color);
+}
+.main-color-bg-opacity-90 {
+    background-color: var(--main-color-opacity-90);
+}
+.main-color-text-opacity-90 {
+    background-color: var(--main-color-opacity-90);
+}
+.main-light-bg{
+    background-color: var(--main-light-color);
+}
+.main-light-text{
+    color: var(--main-light-color);
+}
+.warning-color-bg {
+    background-color: var(--warning-color);
+}
+.warning-color-text {
+    color: var(--warning-color);
+}
+.warning-light-bg {
+    background-color: var(--warning-light-color);
+}
+.warning-light-text {
+    color: var(--warning-light-color);
+}
+.danger-color-bg {
+    background-color: var(--danger-color);
+}
+.danger-color-text {
+    color: var(--danger-color);
+}
+.danger-light-bg {
+    background-color: var(--danger-light-color);
+}
+.danger-light-text {
+    color: var(--danger-light-color);
+}
+.good-color-bg {
+    background-color: var(--good-color);
+}
+.good-color-text {
+    color: var(--good-color);
+}
+.good-light-bg {
+    background-color: var(--good-light-color);
+}
+.good-light-text {
+    color: var(--good-light-color);
+}
+

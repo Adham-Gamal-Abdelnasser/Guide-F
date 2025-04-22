@@ -1,0 +1,16 @@
+section {
+    background-image: linear-gradient(#000000ce , #000000d7) , url("../../../assets/hotel.jpg");
+    background-size: cover ;
+    .right {
+        background-image: url("../../../assets/526c76cb_modified_opacity.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .layer {        
+        input {
+
+            outline: none;
+        }
+    }
+}
